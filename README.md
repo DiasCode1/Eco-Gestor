@@ -14,11 +14,11 @@ O foco deste repositório é exclusivamente o **site** do projeto, que servirá 
 
 ---
 
-## Tecnologias utilizadas
+## 🛠Tecnologias utilizadas
 
 - **HTML5**  
 - **CSS3**
-- 
+
 ---
 
 ## Status
@@ -27,12 +27,12 @@ O foco deste repositório é exclusivamente o **site** do projeto, que servirá 
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## Desenvolvedor
 
-Este repositório está sendo desenvolvido por **Gustavo Sampaio Dias**, responsável pela versão web do projeto.  
+Este branch está sendo desenvolvido por **Gustavo Sampaio Dias**, responsável pela versão web do projeto.  
 
 ---
 
-## 📄 Licença
+## Licença
 
 Uso acadêmico – Projeto desenvolvido no **IFMG**.  
