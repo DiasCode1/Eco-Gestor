@@ -32,9 +32,4 @@ O projeto pode receber melhorias, mas o núcleo visual já está estabelecido.
 ## Desenvolvedor
 
 Este branch está sendo desenvolvido por **Gustavo Sampaio Dias**, responsável pela versão web do projeto.  
-
----
-
-## Licença
-
-Uso acadêmico – Projeto desenvolvido no **IFMG - Campus Ponte Nova**.  
+ 
