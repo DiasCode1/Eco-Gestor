@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>EcoGestor - Início</title>
+    <link rel="icon" href="../Imagens/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      .caixatexto {
+        background-color: #f0f0f0;
+        border: 2px solid #2c493c;
+        border-radius: 8px;
+        padding: 20px;
+        padding-top: 10px;
+        box-shadow: 0 4px 8px rgba(44, 73, 60, 0.3);
+        font-size: 1em;
+        line-height: 1.4;
+        margin: 0px 20px 20px 20px;
+        flex: 1 1 280px;
+        max-width: 360px; 
+        align-items: center;
+        text-align: justify;
+      }
+      #conteudo {
+      display: flex;
+      flex-wrap: wrap;          
+      justify-content: center; 
+      gap: 20px;
+      flex-direction: row;
+      }
+      
+      #conteudo a {
+        text-decoration: none;
+        color: inherit;
+      }
+      #textolink {
+        padding-top: 20px;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: inherit;
+      }
+      .caixatexto img {
+        width: 100%;              
+        border-radius: 8px;
+      }
+      .caixatexto:hover {
+        color: #2c493c;
+        box-shadow: 0 6px 12px rgba(44, 73, 60, 0.5);
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="../Imagens/logoEco.png"
+          alt="Ecogestor"
+          height="25%" width="25%" 
+        />
+      </a>
+      <nav>
+        <a class="bordadir" href="noticias.html" title="Página Inicial"
+          >Noticias</a
+        >
+        <a class="bordadir" href="App.html" title="Nosso App">Nosso App</a>
+
+        <a class="bordadir" href="Sobre.html" title="Nosso App"
+          >Sobre o projeto</a
+        >
+
+        <a href="Contato.html" title="Nosso App">Nossa equipe</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="titulo">
+        <h1>Bem-vindo ao EcoGestor</h1>
+
+        <h2 style="font-size: 20px">
+          “Reciclar pode ser simples, educativo e recompensador.”
+        </h2>
+      </div>
+
+      <section id="conteudo">
+          <a href="noticia1.html">
+            <article class="caixatexto">
+              <h3>
+                Estudos indicam que reciclar gera impactos profundos no meio
+                ambiente e na economia.
+              </h3>
+              <img src="../Imagens/reciclar.png" alt="reciclagem imagem">
+            </article>
+          </a>
+      
+          <a href="noticia2.html">
+            <article class="caixatexto">
+              <h3>
+                Estudos mostram que a compostagem transforma resíduos orgânicos em benefícios ambientais e econômicos.
+              </h3>
+              <img src="../Imagens/compostagem.jpg" alt="compostagem imagem">
+            </article>
+          </a>
+
+           <article>
+          <figure class="caixatexto">
+            <a
+              href="https://agenciabrasil.ebc.com.br/geral/noticia/2022-06/indice-de-reciclagem-no-brasil-e-de-4-diz-abrelpe"
+              target="_blank"
+            >
+              <figcaption id="textolink">
+                Índice de reciclagem no Brasil é de apenas 4%, diz ABRELPE.
+              </figcaption>
+              <img
+                src="../Imagens/sp_chegada_lata_solta.webp"
+                alt="Reciclagem no Brasil"
+              />
+            </a>
+          </figure>
+
+        </article>
+
+          <a href="https://www.youtube.com/watch?v=7FvWW9P1V8U" target="_blank">
+          <article class="caixatexto">
+
+            <h3>
+              "A Importância da Reciclagem para o Meio Ambiente"
+            </h3>
+            <img src="../Imagens/reciclagemviedo.webp" alt="imagemvideo">
+          </article>
+          </a>
+
+          </section>
+
+    </main>
+
+    <footer style="margin-top: 15px;">
+      <p>© 2025 EcoGestor | Projeto IFMG - Campus Ponte Nova</p>
+    </footer>
+  </body>
+</html>

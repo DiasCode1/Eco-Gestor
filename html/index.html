@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>EcoGestor - Início</title>
+    <link rel="icon" href="../Imagens/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      main {
+        padding: 10px 30px;
+        background-color: var(--fundo);
+      }
+
+      #conteudo {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      #conteudo .item {
+        flex: 1 1 350px;
+        max-width: 560px;
+      }
+
+      #conteudo iframe {
+        width: 560px;
+        height: 315px;
+        display: block;
+      }
+
+      #conteudo img {
+        width: 560px;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .texto {
+        font-size: 16px;
+        line-height: 1.6;
+        color: var(--cor-escura);
+        padding-right: 5px;
+      }
+      #textolink {
+        color: var(--cor-escura);
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .caixa {
+        border: 1px solid v;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        max-width: 560px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      #caixatexto {
+        background-color: #f0f0f0;
+        color: #181a19;
+        border: 2px solid #2c493c;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(44, 73, 60, 0.3);
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .caixa .textovideo {
+        margin-top: 0;
+      }
+
+      #textoestudo p {
+        margin-top: 10px;
+      }
+      .item figure.caixa {
+        margin-top: 0;
+      }
+      #textoestudo h3 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+        <a href="index.html">
+          <img src="../Imagens/logoEco.png" alt="Ecogestor" height="25%" width="25%" />
+        </a>
+      <nav>
+
+        <a class="bordadir" href="noticias.html" title="Página Inicial">Noticias</a >
+        <a class="bordadir" href="App.html" title="Nosso App">Nosso App</a>
+
+        <a class="bordadir" href="Sobre.html" title="Nosso App"
+          >Sobre o projeto</a>
+
+        <a href="Contato.html" title="Nosso App">Nossa equipe</a>
+
+      </nav>
+
+    </header>
+
+
+    <main>
+
+      <audio autoplay preload="metadata">
+
+        <source src="../Audios/audioinicio.mp3" type="audio/mpeg" />
+        <source src="../Audios/audioinicio.ogg" type="audio/ogg" />
+        <source src="../Audios/audioinicio.wav" type="audio/wav" />
+
+        Seu navegador não suporta áudio.
+
+      </audio>
+
+
+      <div id="titulo">
+        <img style="margin-top: -50px;" src="../Imagens/BannerInicial.png" alt="BannerInicial">
+        <h1>De uma Ideia Sustentável à Ação: A Criação do EcoGestor</h1>
+        <div id="alinhar">
+          <p style="font-size: 1.3em">
+            O EcoGestor nasceu como um <a href="Sobre.html">projeto interdisciplinar</a> desenvolvido por
+              <a href="Contato.html">alunos do IFMG Campus Ponte Nova</a>, unindo conhecimentos das
+              disciplinas de Projeto de Software, Programação Web, <a href="App.html">
+                Programação
+                para Dispositivos Móveis
+              </a> e Empreendedorismo.
+          </p>
+
+          <p style="font-size: 1.34em;"> Motivados pelos
+              desafios da reciclagem no Brasil, criamos uma solução digital que
+              conecta pessoas à coleta seletiva, com foco na <a href="noticias.html">educação ambiental</a>,
+              praticidade e impacto social.
+            </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>  
+
+      <p>© 2025 EcoGestor | Projeto IFMG - Campus Ponte Nova</p>
+      
+      
+    </footer>
+  </body>
+</html>
